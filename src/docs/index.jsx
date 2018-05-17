@@ -5,7 +5,7 @@ import Unavatar, {
   win32Palette,
   materialPalette,
   microPalette,
-  applePalette,
+  fruitPalette,
 } from '../../lib';
 import './styles.css';
 
@@ -63,7 +63,7 @@ class DemoApp extends React.Component {
             <a href="#" onClick={this.select(microPalette)}>
               Micro
             </a>
-            <a href="#" onClick={this.select(applePalette)}>
+            <a href="#" onClick={this.select(fruitPalette)}>
               Fruit
             </a>
           </div>
